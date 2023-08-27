@@ -1,0 +1,45 @@
+baseURL: ""
+languageCode: en-us
+title: Mon blog - 2023
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Bienvenue sur mon blog !"
+    Content: "Explorez le monde du développement web à travers les yeux d'un passionné ! Bienvenue sur mon blog où je partage mes découvertes et mon parcours en tant que développeur web. 
+    Je m'appelle Victor, actuellement en 3ème année post bac chez Bordeaux Ynov Campus, et je suis ravi de vous emmener dans mon voyage au cœur de la création en ligne."
+  socialIcons:
+    - name: linkedIn
+      url: "https://www.linkedin.com/in/victor-dalamel-de-bournet-345b15225/"
+    - name: Github
+      url: "https://github.com/Archilive"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  # ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+
+    - identifier : À propos
+      name: À propos
+      url: apropos
+      weight: 10
+
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 20
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+   
